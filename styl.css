@@ -1,0 +1,99 @@
+body{
+    width: 900px;
+    background-color: rgb(190, 189, 189);
+    margin:auto;
+    
+}
+header{
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+nav ul li,nav ul li a{
+    list-style-type: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    float: right;
+    width: 120px;
+    height: 100px; 
+    text-decoration: none;
+    background-color: rgb(239, 219, 2);
+    font-size: 20px;
+
+}
+nav ul li a{
+    box-sizing: border-box;
+    padding-top:30%;
+    text-align: center;
+    font-style: oblique;
+    
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    float:left;
+    padding:15px;
+}
+
+section{
+    padding:30px 20px;
+}
+main{
+    padding:10px 50px;
+    margin:0;
+    background-color: rgb(255, 255, 255);
+}
+.cap{
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    transition: color 500ms ease;
+    -webkit-transition: color 500ms ease;
+    -moz-transition: color 500ms ease;
+    -o-transition: color 500ms ease;
+}
+h1:hover{
+    color: rgb(239, 219, 2);
+}
+.experiences{
+  
+    background-color: rgb(255, 255, 255); 
+    border-radius: 8px;
+    margin: 10px 0 10px 0;
+    float: left;
+}
+.grey-boxes{
+    background-color: rgb(187, 182, 182); 
+    width:300px;
+    border-radius: 8px;
+    padding-left: 50px;
+    margin: 10px 0 10px 0; 
+    clear: both;
+    transition: width 1000ms ease-in;
+    -webkit-transition: width 1000ms ease-in;
+    -moz-transition: width 1000ms ease-in;
+    -o-transition: width 1000ms ease-in;
+}
+.grey-boxes:hover{
+    width: 730px;
+}
+main .profile-picture img{
+    width: 250px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:40px 0 100px 0;
+}
+footer{
+    height: 50px;
+    background-color: rgb(239, 219, 2);
+}
+
